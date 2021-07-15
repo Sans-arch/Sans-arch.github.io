@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #2C2E43;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #fff;
+}
+
+header {
+  display: block;
+  background-color: #FFD523;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  color: #2C2E43;
+}
+
+section {
+  margin-top: 40px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section p {
+  font-size: 26px;
+}
