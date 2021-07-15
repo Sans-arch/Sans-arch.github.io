@@ -12,6 +12,8 @@ body {
 header {
   display: block;
   background-color: #FFD523;
+  position: sticky;
+  text-decoration: none;
 }
 
 header h1 {
@@ -20,8 +22,13 @@ header h1 {
   color: #2C2E43;
 }
 
-header h1:hover {
-  color: #EEEEEE;
+header a {
+  text-decoration: none;
+  color:#2C2E43 ;
+}
+
+header a:hover {
+  color: #4F94EF;
 }
 
 section {
