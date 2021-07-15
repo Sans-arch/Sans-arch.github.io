@@ -20,6 +20,10 @@ header h1 {
   color: #2C2E43;
 }
 
+header h1:hover {
+  color: #EEEEEE;
+}
+
 section {
   margin-top: 40px;
   /* background-color: red; */
@@ -30,4 +34,14 @@ section {
 
 section p {
   font-size: 26px;
+  margin: 10px;
+}
+
+#techno a {
+  text-decoration: none;
+}
+
+#stats {
+  display: flex;
+  justify-items: center;
 }
