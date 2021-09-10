@@ -1,0 +1,126 @@
+/* RESET & MAIN CONFIGS */
+* { padding: 0; margin: 0; font-family: 'Open Sans', sans-serif;}
+a { text-decoration: none; color: #fff;}
+
+body {
+    width: 100vw;
+    background-color: #ddd;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    position: sticky;
+    padding: 20px 0px;
+
+    background-color: #2c2c2c;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* CARDS */
+#cards-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px;
+
+    background-color: #001f3f;
+    color: #fff;
+    cursor: alias;
+}
+
+#cards-section h2 {
+    color: #FF851B;
+    text-transform: uppercase;
+}
+
+.container-cards {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 100px;
+
+    width: 100px;
+    height: 100px;
+    margin: 30px 30px;
+}
+
+/* QUEM EU SOU */
+#quemsou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px;
+
+    background-color: #111111;
+    color: #fff;
+    cursor: alias;
+}
+
+#quemsou h2 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#quemsou p {
+    text-align: center;
+    width: 80%;
+}
+
+/* CONTATO */
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px;
+
+    background-color: #001f3f;
+    color: #fff;
+    cursor: alias;
+}
+
+#contato h2 {
+    color: #FF851B;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#contato .icons {
+    display: flex;
+
+    /* background-color: red; */
+    font-size: 70px;
+}
+
+#contato .icons i {
+    /* background-color: yellow; */
+    margin: 0px 30px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #111111;
+    color: #fff;
+}
