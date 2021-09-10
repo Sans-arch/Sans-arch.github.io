@@ -1,17 +1,14 @@
 /* RESET & MAIN CONFIGS */
-* { padding: 0; margin: 0; font-family: 'Open Sans', sans-serif;}
+* { padding: 0; margin: 0; font-family: 'Open Sans', sans-serif; overflow-x: hidden;}
 a { text-decoration: none; color: #fff;}
 
-body {
-    width: 100vw;
-    background-color: #ddd;
-}
+body { width: 100vw; background-color: #ddd; max-width: 100vw; }
 
 /* HEADER */
 header {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     position: sticky;
     padding: 20px 0px;
 
@@ -120,7 +117,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 12px;
+    font-size: 12px;
+
     background-color: #111111;
     color: #fff;
+    cursor: alias;
 }
