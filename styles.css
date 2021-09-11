@@ -86,6 +86,17 @@ header h1 {
     list-style: circle;
 }
 
+@media screen and (max-width: 700px) {
+    .container-cards .cards {
+        font-size: 5rem;
+        justify-content: center;
+    }
+    .cards {
+        width: 70px;
+        margin: 30px 18px;
+    }
+}
+
 /* QUEM SOU EU */
 #quemsou {
     display: flex;
@@ -127,6 +138,12 @@ header h1 {
 #quemsou p {
     text-align: center;
     max-width: 60%;
+}
+
+@media screen and (max-width: 700px) {
+    #quemsou img {
+        width: 60%;
+    }
 }
 
 /* CONTATO */
