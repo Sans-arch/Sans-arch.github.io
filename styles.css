@@ -16,7 +16,6 @@ header {
 
     background-color: #111;
     color: #fff;
-    cursor: pointer;
     text-transform: uppercase;
     overflow-x: hidden;
 }
@@ -27,6 +26,7 @@ header h1 {
     border-right: .15em solid #00d8ff;
     white-space: nowrap;
     margin: 0 auto;
+    cursor: pointer;
     animation: 
     typing 3.5s steps(30, end),
     blink-animation .5s step-end infinite;
