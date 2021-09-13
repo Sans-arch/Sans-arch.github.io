@@ -8,12 +8,10 @@ body { width: 100vw; background-color: #ddd; max-width: 100vw; }
 header {
     position: sticky;
     top: 0;
-    
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 20px 0px;
-
     background-color: #111;
     color: #fff;
     text-transform: uppercase;
@@ -51,20 +49,13 @@ header h1 {
     width: 100%;
     margin: auto;
     padding: 50px 0px;
-
     background-color: #001f3f;
     color: #fff;
-    cursor: alias;
 }
 
-#cards-section h2 {
-    color: #FF851B;
-    text-transform: uppercase;
-}
+#cards-section h2 { color: #FF851B; text-transform: uppercase; }
 
-.container-cards {
-    display: flex;
-}
+.container-cards { display: flex; }
 
 .cards {
     display: flex;
@@ -72,19 +63,13 @@ header h1 {
     align-items: center;
     color: #fff;
     font-size: 100px;
-
     width: 100px;
     height: 100px;
     margin: 30px 30px;
 }
 
-.cards i:hover {
-    opacity: 0.8;
-}
-
-.cards ul li {
-    list-style: circle;
-}
+.cards i:hover { opacity: 0.8; }
+.cards ul li { list-style: circle; }
 
 @media screen and (max-width: 700px) {
     .container-cards .cards {
@@ -106,10 +91,8 @@ header h1 {
     width: 100%;
     margin: auto;
     padding: 50px 0px;
-
     background-color: #111111;
     color: #fff;
-    cursor: alias;
 }
 
 #quemsou .description {
@@ -119,26 +102,10 @@ header h1 {
     align-items: center;
 }
 
-#quemsou h2 {
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    flex-grow: 2;
-}
-
-#quemsou img {
-    width: 300px;
-    border-radius: 50%;
-    margin: 0px 0px 40px 0px;
-}
-
-#quemsou img:hover {
-    opacity: 0.9;
-}
-
-#quemsou p {
-    text-align: center;
-    max-width: 60%;
-}
+#quemsou h2 { text-transform: uppercase; margin-bottom: 30px; flex-grow: 2; }
+#quemsou img { width: 300px; border-radius: 50%; margin: 0px 0px 40px 0px; }
+#quemsou img:hover { opacity: 0.9; }
+#quemsou p { text-align: center; max-width: 60%; }
 
 @media screen and (max-width: 700px) {
     #quemsou img {
@@ -155,30 +122,14 @@ header h1 {
     width: 100%;
     margin: auto;
     padding: 50px 0px;
-
     background-color: #001f3f;
     color: #fff;
-    cursor: alias;
 }
 
-#contato h2 {
-    color: #FF851B;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-
-#contato .icons {
-    display: flex;
-    font-size: 70px;
-}
-
-#contato .icons i {
-    margin: 0px 30px;
-}
-
-#contato .icons i:hover {
-    opacity: 0.8;
-}
+#contato h2 { color: #FF851B; text-transform: uppercase; margin-bottom: 30px;}
+#contato .icons { display: flex; font-size: 70px; }
+#contato .icons i { margin: 0px 30px; }
+#contato .icons i:hover { opacity: 0.8; }
 
 /* FOOTER */
 footer {
@@ -187,8 +138,6 @@ footer {
     align-items: center;
     padding: 12px;
     font-size: 12px;
-
     background-color: #111111;
     color: #fff;
-    cursor: alias;
 }
