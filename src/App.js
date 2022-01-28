@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import Cards from './components/Cards';
 
 import { GlobalStyle } from './styles/global';
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <GlobalStyle />
       <Header />
+      <Cards />
     </>
   );
 }
