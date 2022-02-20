@@ -16,6 +16,13 @@ header {
     color: #fff;
     text-transform: uppercase;
     overflow-x: hidden;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 header h1 {
@@ -51,6 +58,13 @@ header h1 {
     padding: 50px 0px;
     background-color: #001f3f;
     color: #fff;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #cards-section h2 { color: #FF851B; text-transform: uppercase; }
@@ -93,6 +107,13 @@ header h1 {
     padding: 50px 0px;
     background-color: #111111;
     color: #fff;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #quemsou .description {
@@ -103,7 +124,17 @@ header h1 {
 }
 
 #quemsou h2 { text-transform: uppercase; margin-bottom: 30px; flex-grow: 2; }
-#quemsou img { width: 300px; border-radius: 50%; margin: 0px 0px 40px 0px; }
+#quemsou img { 
+    width: 300px; 
+    border-radius: 50%; 
+    margin: 0px 0px 40px 0px;
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 #quemsou img:hover { opacity: 0.9; }
 #quemsou p { text-align: center; max-width: 60%; }
 
@@ -140,4 +171,11 @@ footer {
     font-size: 12px;
     background-color: #111111;
     color: #fff;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
